@@ -69,7 +69,7 @@ namespace DockableDialog.Forms
             m_top = top;
             m_bottom = bottom;
             m_targetGuid = targetGuid;
-
+            int a=10;
 
 
         }
