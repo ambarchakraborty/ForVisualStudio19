@@ -58,6 +58,9 @@ namespace DockableDialog.Forms
             //Log.Message("***Intial docking parameters***");
             //Log.Message(APIUtility.GetDockStateSummary(data.InitialState));
         }
+        #region initializesection
+
+	
         public void SetInitialDockingParameters(int left, int right, int top, int bottom, DockPosition position, Guid targetGuid)
         {
             m_position = position;
@@ -66,7 +69,12 @@ namespace DockableDialog.Forms
             m_top = top;
             m_bottom = bottom;
             m_targetGuid = targetGuid;
+
+
+
         }
+
+        #endregion
 
         private void PaneInfoButton_Click(object sender, RoutedEventArgs e)
         {
